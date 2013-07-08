@@ -31,7 +31,7 @@ exports.use = function(){
 
 		// validate & get stoage key from storage name
 		function(callback){
-			console.log("Fetching primary access key associated with storage account '"+myStorageaccount+"'...");
+			console.log("Fetching primary access key associated with storage account '"+myStorageaccount+"'...\n");
 			scripty.invoke('account storage keys list '+myStorageaccount, function(err, results){
 				if (err)
 					throw err;
@@ -64,7 +64,7 @@ exports.use = function(){
 			recipe.table_create(myMobileservice,"Album", function(err, results){
 				if (err)
 					throw err;
-				myLeaderboard = results;
+				myAlbum = results;
 			    callback(err, results);
 			});
 	    },
@@ -72,7 +72,7 @@ exports.use = function(){
 	    	recipe.table_create(myMobileservice,"Picture", function(err, results){
 	    		if (err)
 	    			throw err;
-				myResult = results;
+				myPicture = results;
 	    		callback(err, results);
 			});
 	    },
