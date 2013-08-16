@@ -1,3 +1,5 @@
+// Nick Harris provided the following code for a newer version of the insert script
+
 var azure = require('azure');
 
 function insert(item, user, request) {
