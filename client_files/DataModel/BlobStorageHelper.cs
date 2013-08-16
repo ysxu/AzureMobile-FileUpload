@@ -1,4 +1,4 @@
-namespace MobileServices.Samples.MyPictures.DataModel 
+namespace $namespace.DataModel 
 { 
     using System; 
     using System.IO; 

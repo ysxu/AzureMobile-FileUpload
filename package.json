@@ -1,25 +1,23 @@
 {
-  "name": "azuremobile-pictureupload",
+  "name": "azuremobile-fileupload",
   "version": "0.1.1",
-  "description": "Azure Mobile Services Blob Storage Picture Upload Recipe",
-  "main": "./pictureupload.js",
+  "description": "Azure Mobile Services Blob Storage File Upload Recipe",
+  "main": "index.js",
   "licenses": [ { "type": "Apache", "url": "http://www.apache.org/licenses/LICENSE-2.0" } ],
-  "dependencies": {
-    "azure-scripty":"~0.1.0",
-    "async": "~0.1.22",
-    "azuremobile-recipe":"~0.1.1"
-  },
+  "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/ysxu/TBD"
+    "url": "git://github.com/ysxu/AzureMobile-PictureUpload.git"
   },
-  "homepage": "https://github.com/ysxu/TBD",
+  "homepage": "https://github.com/ysxu/AzureMobile-PictureUpload",
   "keywords": [
     "azure",
     "mobile",
     "blob storage",
-    "picture upload",
-    "recipe"
+    "file upload",
+    "recipe",
+    "platform: Windows Store App",
+    "project language: C#"
   ],
   "author": "Mimi Xu",
   "readmeFilename": "README.md"

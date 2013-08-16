@@ -5,7 +5,7 @@
 //
 // Copyright (c) Microsoft Corporation. All rights reserved
 
-namespace MobileServices.Samples.MyPictures.DataModel
+namespace $namespace.DataModel
 {
     using System.Runtime.Serialization;
 
